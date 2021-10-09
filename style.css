@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+    
+}
+.menubar
+{
+    background: gray;
+    text-align: center;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    font-size: 22px;
+}
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menubar ul li:hover
+{
+    background:cornflowerblue;
+    border-radius: 10px;
+}
+.menubar .fas
+{
+    margin-right: 8px;
+}
+.web
+{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+}
+.web1
+{
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.web2
+{
+    padding-top: 20px;
+    size: 30px;
+}
+.hire
+{
+    border: 1px solid darkcyan;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    background-color: rgb(247, 192, 224);
+}
